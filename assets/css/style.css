@@ -159,7 +159,7 @@ main {
     z-index: 1;
     text-align: left;
     font-family: athene;
-    font-size: 6.6rem;
+    font-size: 6.5rem;
 }
 
 .article__rodrigo img {
@@ -173,7 +173,6 @@ main {
                 Main Works Käthe
 ===============================================*/
 .article__kaethe {
-
     padding: 5rem 10rem;
 }
 
@@ -185,8 +184,54 @@ main {
     margin-left: 80rem;
 }
 
-
 .article__kaethe img {
+    position: relative;
+    bottom: 20rem;
+    bottom: 200px;
+    width: 74rem;
+}
+
+/*=============================================
+                Main Works Victor
+===============================================*/
+
+.article__victor {
+    padding: 5rem 10rem;
+    text-align: right;
+}
+
+.article__victor h3 {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    font-family: athene;
+    font-size: 6.5rem;
+}
+
+.article__victor img {
+    position: relative;
+    z-index: 0;
+    width: 74rem;
+    bottom: 25rem;
+}
+
+/*=============================================
+                Main Works Bored
+===============================================*/
+
+.article__bored {
+    padding: 5rem 10rem;
+}
+
+.article__bored h3 {
+    text-align: right;
+    font-family: athene;
+    font-size: 6.6rem;
+    width: 40rem;
+    margin-left: 80rem;
+}
+
+.article__bored img {
     position: relative;
     bottom: 20rem;
     bottom: 200px;
