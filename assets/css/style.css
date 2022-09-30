@@ -24,6 +24,10 @@ html {
     font-family: openSans;
 }
 
+p {
+    line-height: 3.5rem;
+}
+
 /*=============================================
                 Header
 ===============================================*/
@@ -88,14 +92,15 @@ main {
     padding-right: 10rem;
 }
 
+.p__umberRelease {
+    padding: 10rem;
+}
+
+
 .section__release h2 {
     font-size: 16rem;
     font-family: athene;
-    width: 55rem;
-}
-
-.p__release {
-    padding: 10rem;
+    width: 50rem;
 }
 
 .article__release {
@@ -107,4 +112,43 @@ main {
 
 .p__article_release {
     width: 50rem;
+}
+
+.img__stemp {
+    padding: 10rem 0;
+    width: 10rem;
+}
+
+/*=============================================
+                Main Works
+===============================================*/
+
+.section__works {
+    background-color: #DEB873;
+    color: #7D2222;
+}
+
+.p__numberWorks {
+    text-align: right;
+    padding: 10rem;
+}
+
+.h2__works {
+    text-align: right;
+    font-family: athene;
+    font-size: 16rem;
+}
+
+.p__textWorks {
+    padding-left: 10rem;
+    padding-bottom: 10rem;
+    width: 65rem;
+}
+
+/*=============================================
+                Main Works Rodrigo
+===============================================*/
+
+.article__rodrigo {
+    font-size: 6.6rem;
 }
