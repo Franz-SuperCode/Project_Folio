@@ -1,0 +1,88 @@
+/* Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883 */
+
+/*=============================================
+                Allgemeines
+===============================================*/
+@font-face {
+    font-family: openSans;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: athene;
+    src: url("../fonts/Athene.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: openSans;
+}
+
+/*=============================================
+                Header
+===============================================*/
+
+header {
+    color: #042A5A;
+    background-color: #EFE8D7;
+    font-size: 1.8rem;
+    padding-bottom: 5rem;
+}
+
+header h1 {
+    font-size: 16rem;
+    width: 100%;
+    margin: 0rem auto;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.2rem solid #042A5A;
+}
+
+header nav p {
+    padding: 1rem 15rem;
+}
+
+.hr__temporarryFolio {
+    width: 115rem;
+    margin: 0rem auto;
+    border-width: 0.2rem;
+    border-style: solid none none none;
+}
+
+header figure {
+    margin: 5rem auto;
+    width: 33%;
+}
+
+header figure figcaption {
+    padding: 2rem 0;
+}
+
+header figure img {
+    width: 100%;
+}
+
+.fontFamily_athene {
+    font-family: athene;
+}
+
+/*=============================================
+                Main Release
+===============================================*/
+main {
+    font-size: 1.8rem;
+}
+
+.section_release {
+    display: flex;
+}
