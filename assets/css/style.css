@@ -92,7 +92,7 @@ main {
     padding-right: 10rem;
 }
 
-.p__umberRelease {
+.p__numberRelease {
     padding: 10rem;
 }
 
@@ -236,4 +236,43 @@ main {
     bottom: 20rem;
     bottom: 200px;
     width: 74rem;
+}
+
+/*=============================================
+                Footer
+===============================================*/
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    background-color: #D2D2D2;
+    color: #388883;
+    padding-top: 5rem;
+}
+
+.h2__Footer {
+    font-size: 16rem;
+    font-family: athene;
+}
+
+.p__textFooter {
+    align-self: center;
+}
+
+.p__textFooter {
+    width: 32rem;
+}
+
+footer ul {
+    align-self: flex-end;
+    text-align: right;
+    list-style-type: none;
+    padding: 10rem;
+    line-height: 3.5rem;
+}
+
+footer ul li a {
+
+    text-decoration: none;
+    color: #388883;
 }
