@@ -80,6 +80,17 @@ header figure img {
     font-family: athene;
 }
 
+.span__tempo:before {
+    content: "";
+    display: inline-block;
+    width: 20rem;
+    height: 0.2rem;
+    bottom: 5rem;
+    background: #042A5A;
+    position: relative;
+}
+
+
 /*=============================================
                 Main Release
 ===============================================*/
@@ -247,7 +258,6 @@ footer {
     font-size: 1.8rem;
     background-color: #D2D2D2;
     color: #388883;
-    padding-top: 5rem;
 }
 
 .h2__Footer {
@@ -257,10 +267,11 @@ footer {
 
 .p__textFooter {
     align-self: center;
+    width: 32rem;
 }
 
-.p__textFooter {
-    width: 32rem;
+.p__numberFooter {
+    padding: 10rem;
 }
 
 footer ul {
