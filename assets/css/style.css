@@ -215,7 +215,7 @@ caption {
     z-index: 1;
     text-align: left;
     font-family: athene;
-    font-size: 6.5rem;
+    font-size: 6.65rem;
 }
 
 .article__rodrigo img {
@@ -235,7 +235,7 @@ caption {
 .article__kaethe h3 {
     text-align: right;
     font-family: athene;
-    font-size: 6.6rem;
+    font-size: 6.65rem;
     width: 40rem;
     margin-left: 80rem;
 }
@@ -261,7 +261,7 @@ caption {
     z-index: 1;
     text-align: left;
     font-family: athene;
-    font-size: 6.5rem;
+    font-size: 6.65rem;
 }
 
 .article__victor img {
@@ -328,7 +328,10 @@ footer ul {
 }
 
 footer ul li a {
-
     text-decoration: none;
     color: #388883;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
