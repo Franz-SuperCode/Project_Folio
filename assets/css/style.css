@@ -37,13 +37,16 @@ header {
     background-color: #EFE8D7;
     font-size: 1.8rem;
     padding-bottom: 5rem;
+    text-align: center;
 }
 
 header h1 {
     font-size: 16rem;
-    width: 100%;
-    margin: 10rem auto 5rem auto;
-    text-align: center;
+    font-family: athene;
+    width: 115rem;
+    margin: 0rem auto;
+    border-bottom: #042A5A solid 0.2rem;
+
 }
 
 header nav {
@@ -122,12 +125,57 @@ main {
 }
 
 .p__article_release {
-    width: 50rem;
+    width: 65rem;
 }
 
 .img__stemp {
     padding: 10rem 0;
     width: 10rem;
+}
+
+/*=============================================
+                Main Works Table
+===============================================*/
+
+div {
+    margin-left: 28rem;
+    text-align: right;
+    width: 65rem;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 0.1rem solid black;
+}
+
+tr {
+    border-bottom: 0.1rem solid black;
+}
+
+td {
+    font-size: 1.4rem;
+    padding: 50px;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+}
+
+.td__first {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.td__second {
+    width: 22rem;
+    padding-right: 0rem;
+}
+
+caption {
+    padding-top: 10rem;
+    text-align: right;
+    letter-spacing: 0.1rem;
 }
 
 /*=============================================
